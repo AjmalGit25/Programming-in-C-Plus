@@ -1,4 +1,39 @@
 # Programming-in-C-Plus
+
+# Programming in C++
+
+## 📌 About
+This repository contains my C++ programming practice and implementations.
+It is created to strengthen my understanding of core C++ concepts and
+problem-solving skills.
+
+## 🧠 What’s inside
+- Basic C++ syntax and programs
+- Control statements and loops
+- Functions and recursion
+- Arrays, strings, and pointers
+- Object-Oriented Programming (OOP) concepts
+- Practice problems and examples
+
+## 🎯 Purpose of this repository
+- To build a strong foundation in C++
+- To practice clean and readable code
+- To track my learning progress over time
+- To prepare for interviews and internships
+
+## 🛠️ Tech stack
+- Language: C++
+- Compiler: GCC / g++
+- IDE: VS Code
+
+## 📈 Status
+Ongoing — updated regularly as I learn and practice more.
+
+## 🤝 Contributions
+This is a personal learning repository. Suggestions are welcome.
+
+==================================================================
+
 # 2D Arrays in C++
 
 A **2D array** is like a table (matrix) with rows and columns.

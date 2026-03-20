@@ -7,7 +7,7 @@ int main () {
 	string str = "XAVIER";
 	string revStr;
 	
-	for (int i = str.length(); i >= 0; i--) {
+	for (int i = str.length() - 1; i >= 0; i--) {
 	    revStr += str[i];
 	}
 	

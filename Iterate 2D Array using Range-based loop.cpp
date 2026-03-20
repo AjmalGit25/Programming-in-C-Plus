@@ -20,7 +20,6 @@ int main () {
 	}
 
 	// Way 2nd
-	
 	for (int (&row)[5] : arr) {
 		for (int x : row) {
 			cout << x << " ";

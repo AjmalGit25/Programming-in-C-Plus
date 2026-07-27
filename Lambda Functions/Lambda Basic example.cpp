@@ -2,6 +2,7 @@
 using namespace std;
 
 int main () {
+	// Basic Lambda function
 	auto message = []() {
 		cout << "Hello World!\n";
 	};

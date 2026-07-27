@@ -2,38 +2,47 @@
 #include <cmath>
 using namespace std;
 
-//Armstrong number
-
-int main() {
+// Armstrong number
+int generateArmstrong (int n) {
     
-    int origNum, tmpNum1, tmpNum2, rem, dig = 0, newNum = 0;
+    int num = n;
+    int dig = 0;
     
-    cout << "Enter a number: ";
-    cin >> origNum;
-    
-    tmpNum1 = tmpNum2 = origNum;
-    
-    // Evaluate no. of digits in the given number (e.g., num = 56 then digits = 2)
-    while (tmpNum1 != 0) { 
-        tmpNum1 /= 10;
+    // Step 1: Find digits (e.g., num = 56 then digits = 2)
+    while (num) { 
+        num /= 10;
         dig++;
     }
     
-    // Evaluate armstrong number (e.g., num = 56 then 5^2 + 6^2)
-    while (tmpNum2 != 0) {
-        rem = tmpNum2 % 10;
+    num = n;
+    int newNum = 0;
+    
+    // Step 2: Evaluate armstrong number (e.g., num = 56 then 5^2 + 6^2)
+    while (num) {
+        int rem = num % 10;
         
-        tmpNum2 /= 10;
+        num /= 10;
         
         newNum = newNum + pow (rem, dig);
     } 
     
-    cout << "New number: " << newNum << endl;
     
-    if (newNum == origNum) 
-		cout << origNum << " is an Armstrong number!\n";
-	else 
-		cout << origNum << " is not an Armstrong number!\n";
+    if (newNum == n) 
+        return true;
+    else
+        return false;
+}
+
+int main () {
+    int number = 153;
+    
+    cout << generateArmstrong (number);
     
     return 0;
 }
+
+/*
+
+Some armstrong numbers: 153
+
+*/

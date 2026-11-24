@@ -17,8 +17,7 @@ private:
 
 class Person {
 public:
-    Person(string n, Birthday b)
-        : name(n), bd(b) {}
+    Person (string n, Birthday b) : name(n), bd(b) {}
 
 private:
     string name;

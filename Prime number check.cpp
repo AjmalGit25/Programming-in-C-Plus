@@ -25,4 +25,10 @@ int main () {
 
 Tip: Use i * i <= n  for larger number
 
+We can optimize by checking divisors only up to sqrt(n), instead of checking all the way up to n - 1.
+
+TC:
+	Simple loop: O(n)
+	Optimized loop: O(sqrt(n))
+
 */

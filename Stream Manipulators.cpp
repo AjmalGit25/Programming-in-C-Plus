@@ -12,7 +12,7 @@ int main () {
     cout << setprecision (6) << d << endl;
 
     return 0;
-}
+} 
 
 /*
 
